@@ -10,7 +10,7 @@
     width: 900px;
     height: 70px;
     left: 50%;
-    top : 30px;
+    top : 50px;
     transform: translateX(-450px);
     display: flex;
     justify-content: space-around;

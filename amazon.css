@@ -1,3 +1,45 @@
+
+.search_wrap {
+    width: 100%;
+    height: 90px;
+    background-color : #232F3F;
+   
+}
+.logo_wrap {
+    position: absolute;
+}
+.amazon_logo {
+    height: 90px;
+    margin-left: 15px;
+}
+.search_box_wrap {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.search_box {
+    width: 100%;
+    display: flex;
+    justify-content : center;
+    align-items : center;
+}
+.search_input {
+    width: 40%;
+    height: 28px;
+    box-sizing: content-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search_btn {
+    width: 34px;
+    height: 34px;
+    background-color: #E8AF65;
+    border: none;
+    font-size: 17px;
+}
 .wrap {
     position: relative;
     width : 100%;
@@ -47,7 +89,7 @@
     left: 50%;
     width: 900px;
     height: 220px;
-    transform: translate(-430px,-30px);
+    transform: translate(-450px,-50px);
     overflow: hidden;
 }
 .slide_item_wrap{
@@ -74,15 +116,24 @@
 }
 .prev_btn{
     position : absolute;
-    top: 70%;
+    top: 60%;
     left: 60px;
     z-index: 1;
+    font-size: 40px;
+    color: #848484;
+    background-color: transparent;
+    border: none;
 }
 .next_btn{
     position : absolute;
-    top: 70%;
+    top: 60%;
     right: 60px;
     z-index: 1;
+    font-size: 40px;
+    color: #848484;
+    background-color: transparent;
+    border: none;
+
 }
 
 .slide_item_text h2{
